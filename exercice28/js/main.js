@@ -1,3 +1,12 @@
+// $("button").click(function () {
+//     $("input").val("je n'ai pas compris hein")
+// })
+
+// $("button").click(function () {
+//     test = $("input").val()
+//     console.log(test)
+// });
+
 $("button").click(function () {
-    $("input:text").val("je n'ai pas compris hein")
-})
+    console.log($("input").val())
+});

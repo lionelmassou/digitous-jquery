@@ -1,6 +1,6 @@
 $("button").click(function () {
-    $(img).animate({
-        right: '200px',
+    $(bg).animate({
+        "margin-left": '100px',
           
     });
 })

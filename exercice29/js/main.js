@@ -1,9 +1,14 @@
-$("button").click(function () {
-    $("input:text").val("allez vive le discours ")
-    
-    if ($("input:text").val() > 5) {
-        $("input").addClass("is-valid")
-    } else {
-        $("input").addClass("is-invalid")
-    }
+$(function () {
+    $("button").click(function () {
+
+        // $("input").val("mange")
+
+        var numberLetter = $("input").val().length
+
+        if (numberLetter > 5) {
+            $("input").addClass("is-valid")
+        } else {
+            $("input").addClass("is-invalid")
+        }
+    })
 })

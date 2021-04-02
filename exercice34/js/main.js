@@ -7,6 +7,7 @@ $("button").click(function () {
     var inputUrl = urlGeneral + nameInput;
 
     $.ajax({
+        
         // url: "https://restcountries.eu/rest/v2/name/"+ nameInput, // methode 2
         url: inputUrl, // methode 2
         success: function (data, statuts, response) {
